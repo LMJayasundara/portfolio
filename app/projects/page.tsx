@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description:
       'Explore highlighted projects by Lahiru Jayasundara across AI, serverless architectures, and full‑stack web development.',
     siteName: 'Lahiru Jayasundara Portfolio',
-    images: ['/open-garph.png'],
+    images: [`${baseUrl}/open-garph.png`],
     locale: 'en_US',
     type: 'website',
   },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description:
       'Highlighted AI, serverless, and full‑stack software projects by Lahiru Jayasundara.',
     creator: '@lahirujayasundara',
-    images: ['/open-garph.png'],
+    images: [`${baseUrl}/open-garph.png`],
   },
   robots: {
     index: true,

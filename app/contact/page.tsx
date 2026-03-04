@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description:
       'Reach out to Lahiru Jayasundara for collaboration, consulting, or new software engineering opportunities.',
     siteName: 'Lahiru Jayasundara Portfolio',
-    images: ['/open-garph.png'],
+    images: [`${baseUrl}/open-garph.png`],
     locale: 'en_US',
     type: 'website',
   },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description:
       'Get in touch with software engineer Lahiru Jayasundara for new opportunities and collaborations.',
     creator: '@lahirujayasundara',
-    images: ['/open-garph.png'],
+    images: [`${baseUrl}/open-garph.png`],
   },
   robots: {
     index: true,

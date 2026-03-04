@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     description:
       'Bio and background of software engineer Lahiru Jayasundara, including focus areas in AI, serverless, and full‑stack development.',
     siteName: 'Lahiru Jayasundara Portfolio',
-    images: ['/open-garph.png'],
+    images: [`${baseUrl}/open-garph.png`],
     locale: 'en_US',
     type: 'website',
   },
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description:
       'Get to know software engineer Lahiru Jayasundara and his expertise in AI and serverless full‑stack development.',
     creator: '@lahirujayasundara',
-    images: ['/open-garph.png'],
+    images: [`${baseUrl}/open-garph.png`],
   },
   robots: {
     index: true,

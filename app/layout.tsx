@@ -2,9 +2,11 @@ import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/sonner';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
+import { baseUrl } from '@/constants';
 import './globals.css';
 
 const geistSans = Geist({
@@ -18,6 +20,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(baseUrl),
   title: 'Lahiru Jayasundara | Software Engineer',
   description:
     'Portfolio of Lahiru Jayasundara, a software engineer specializing in full‑stack development, AWS serverless architecture, and AI agent integration.',
@@ -40,7 +43,7 @@ export const metadata: Metadata = {
     description:
       'Explore the work, experience, and projects of Lahiru Jayasundara, a software engineer focused on full‑stack development, AWS serverless, and AI solutions.',
     siteName: 'Lahiru Jayasundara Portfolio',
-    images: ['/open-garph.png'],
+    images: [`${baseUrl}/open-garph.png`],
     locale: 'en_US',
     type: 'website',
   },
@@ -50,7 +53,7 @@ export const metadata: Metadata = {
     description:
       'Software engineer specializing in full‑stack development, AWS serverless architecture, and AI-powered applications.',
     creator: '@lahirujayasundara',
-    images: ['/open-garph.png'],
+    images: [`${baseUrl}/open-garph.png`],
   },
   robots: {
     index: true,
@@ -88,6 +91,7 @@ export default function RootLayout({
           </div>
         </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-0Y0JC8NRTC" />
     </html>
   );
 }
