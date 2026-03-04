@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description:
       'Review the professional experience and career history of software engineer Lahiru Jayasundara.',
     siteName: 'Lahiru Jayasundara Portfolio',
-    images: ['/open-garph.png'],
+    images: [`${baseUrl}/open-garph.png`],
     locale: 'en_US',
     type: 'website',
   },
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: 'Career | Lahiru Jayasundara',
     description: 'Career highlights and experience of software engineer Lahiru Jayasundara.',
     creator: '@lahirujayasundara',
-    images: ['/open-garph.png'],
+    images: [`${baseUrl}/open-garph.png`],
   },
   robots: {
     index: true,

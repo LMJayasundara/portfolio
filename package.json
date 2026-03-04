@@ -12,6 +12,7 @@
   "dependencies": {
     "@aws-sdk/client-ses": "^3.1000.0",
     "@hookform/resolvers": "^5.2.2",
+    "@next/third-parties": "^16.1.6",
     "@radix-ui/react-visually-hidden": "^1.2.4",
     "@react-email/components": "^1.0.8",
     "@react-email/render": "^2.0.4",
