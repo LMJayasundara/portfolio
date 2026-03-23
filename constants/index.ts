@@ -5,7 +5,7 @@ import { FaEnvelope } from 'react-icons/fa6';
 export const baseUrl = 'https://lahirumadushan.com';
 
 export const avatar = {
-  name: 'Jayasundara J.M.L.M.',
+  name: 'Lahiru Jayasundara',
   initials: 'LJ',
 };
 

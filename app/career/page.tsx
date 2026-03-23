@@ -7,7 +7,12 @@ export const metadata: Metadata = {
   description:
     'Professional career timeline of Lahiru Jayasundara, covering software engineering roles, IoT work, and experience with AWS, AI, and real-time systems.',
   keywords: [
+    'Lahiru career',
+    'Madushan career',
+    'Jayasundara career',
+    'Lahiru Madushan career',
     'Lahiru Jayasundara career',
+    'Lahiru Madushan Jayasundara career',
     'software engineer experience',
     'senior software engineer resume',
     'AWS AI engineer career',
@@ -16,7 +21,7 @@ export const metadata: Metadata = {
     title: 'Career | Lahiru Jayasundara',
     description:
       'Review the professional experience and career history of software engineer Lahiru Jayasundara.',
-    siteName: 'Lahiru Jayasundara Portfolio',
+    siteName: 'Lahiru Portfolio',
     images: [`${baseUrl}/open-garph.png`],
     locale: 'en_US',
     type: 'website',

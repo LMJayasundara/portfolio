@@ -10,12 +10,15 @@ export type Experience = {
   roles: ExperienceRole[];
   technologies: string[];
   image?: string;
+  link?: string;
 };
 
 export type Project = {
   title: string;
   description: string;
   tech: string[];
+  github?: string;
+  demo?: string;
 };
 
 export type HeroContent = {
@@ -84,6 +87,7 @@ export const experiences: Experience[] = [
       'Cognito',
       'Tailwind CSS',
     ],
+    link: 'https://github.com/LMJayasundara',
   },
   {
     company: 'Atlas Axillia Co. (Pvt) Ltd — Colombo, Sri Lanka',
@@ -100,6 +104,7 @@ export const experiences: Experience[] = [
       },
     ],
     technologies: ['IoT', 'Python', 'Node.js', 'AWS IoT', 'PLC', 'Dashboards'],
+    link: 'https://github.com/LMJayasundara',
   },
 ];
 
@@ -121,6 +126,8 @@ export const projects: Project[] = [
       'S3',
       'Serverless',
     ],
+    github: 'https://github.com/LMJayasundara',
+    demo: 'https://github.com/LMJayasundara',
   },
   {
     title: 'Multi-Modal AI Conversational Chatbot Suite',
@@ -138,12 +145,16 @@ export const projects: Project[] = [
       'S3',
       'Serverless',
     ],
+    github: 'https://github.com/LMJayasundara',
+    demo: 'https://github.com/LMJayasundara',
   },
   {
     title: 'AWS Bedrock AgentCore Runtime & Memory Gateway',
     description:
       'Developed a custom serverless chatbot backend leveraging AWS Bedrock AgentCore runtime with persistent memory and gateway configuration, enabling stateful multi-turn AI conversations with low-latency serverless execution.',
     tech: ['Python 3', 'Amazon Bedrock', 'AWS AgentCore', 'AWS Lambda', 'Serverless'],
+    github: 'https://github.com/LMJayasundara',
+    demo: 'https://github.com/LMJayasundara',
   },
   {
     title: 'Swagger-Integrated API-Aware AI Chatbot',
@@ -160,6 +171,8 @@ export const projects: Project[] = [
       'OpenAPI/Swagger',
       'Serverless',
     ],
+    github: 'https://github.com/LMJayasundara',
+    demo: 'https://github.com/LMJayasundara',
   },
   {
     title: 'AI-Powered Interview Agent Platform',
@@ -176,6 +189,8 @@ export const projects: Project[] = [
       'Lambda',
       'Serverless',
     ],
+    github: 'https://github.com/LMJayasundara',
+    demo: 'https://github.com/LMJayasundara',
   },
   {
     title: 'Intelligent Automated Recruitment Platform',
@@ -192,6 +207,8 @@ export const projects: Project[] = [
       'AWS Amplify Gen2',
       'Serverless',
     ],
+    github: 'https://github.com/LMJayasundara',
+    demo: 'https://github.com/LMJayasundara',
   },
   {
     title: 'Secure Remote Device Management Platform',
@@ -208,6 +225,8 @@ export const projects: Project[] = [
       'S3',
       'Serverless',
     ],
+    github: 'https://github.com/LMJayasundara',
+    demo: 'https://github.com/LMJayasundara',
   },
   {
     title: 'Custom Open-Source Text-to-Speech Engine for AI Agents',
@@ -222,6 +241,8 @@ export const projects: Project[] = [
       'AWS Lambda',
       'Serverless',
     ],
+    github: 'https://github.com/LMJayasundara',
+    demo: 'https://github.com/LMJayasundara',
   },
   {
     title: 'Production-Grade Serverless Next.js Website with WAF & SEO',
@@ -238,5 +259,7 @@ export const projects: Project[] = [
       'Open Graph',
       'Serverless',
     ],
+    github: 'https://github.com/LMJayasundara',
+    demo: 'https://github.com/LMJayasundara',
   },
 ];

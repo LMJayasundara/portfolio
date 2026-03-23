@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { experiences } from '@/data';
@@ -9,7 +10,7 @@ export default function Career() {
       {/* Timeline line */}
       <div className="absolute top-4 bottom-0 left-0 border-l-2" />
 
-      {experiences.map(({ company, image, roles, technologies, workMode }, index) => (
+      {experiences.map(({ company, image, roles, technologies, workMode, link }, index) => (
         <div className="relative pb-12 pl-8 last:pb-0" key={index}>
           {/* Timeline dot */}
           <div className="absolute top-3 left-px h-3 w-3 -translate-x-1/2 rounded-full border-2 border-primary bg-background" />
@@ -56,7 +57,9 @@ export default function Career() {
                   </Badge>
                 ))}
               </div>
-              <Button size="sm">View more</Button>
+              <Button size="sm" asChild>
+                <Link href={link ?? '/'}>View more</Link>
+              </Button>
             </div>
 
             {image && (

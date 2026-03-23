@@ -8,7 +8,12 @@ export const metadata: Metadata = {
   description:
     'Contact Lahiru Jayasundara for software engineering opportunities, collaborations, or questions about AI, serverless, and full‑stack projects.',
   keywords: [
+    'contact Lahiru',
+    'contact Madushan',
+    'contact Jayasundara',
+    'contact Lahiru Madushan',
     'contact Lahiru Jayasundara',
+    'contact Lahiru Madushan Jayasundara',
     'hire software engineer',
     'contact senior software engineer',
     'AI engineer contact',
@@ -17,7 +22,7 @@ export const metadata: Metadata = {
     title: 'Contact | Lahiru Jayasundara',
     description:
       'Reach out to Lahiru Jayasundara for collaboration, consulting, or new software engineering opportunities.',
-    siteName: 'Lahiru Jayasundara Portfolio',
+    siteName: 'Lahiru Portfolio',
     images: [`${baseUrl}/open-garph.png`],
     locale: 'en_US',
     type: 'website',

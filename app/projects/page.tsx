@@ -7,7 +7,12 @@ export const metadata: Metadata = {
   description:
     'Selected software engineering projects by Lahiru Jayasundara, including AI agents, AWS serverless platforms, and production-grade full-stack applications.',
   keywords: [
+    'Lahiru projects',
+    'Madushan projects',
+    'Jayasundara projects',
+    'Lahiru Madushan projects',
     'Lahiru Jayasundara projects',
+    'Lahiru Madushan Jayasundara projects',
     'software projects',
     'AI projects',
     'AWS serverless projects',
@@ -17,7 +22,7 @@ export const metadata: Metadata = {
     title: 'Projects | Lahiru Jayasundara',
     description:
       'Explore highlighted projects by Lahiru Jayasundara across AI, serverless architectures, and full‑stack web development.',
-    siteName: 'Lahiru Jayasundara Portfolio',
+    siteName: 'Lahiru Portfolio',
     images: [`${baseUrl}/open-garph.png`],
     locale: 'en_US',
     type: 'website',

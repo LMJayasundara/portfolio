@@ -1,4 +1,4 @@
-import { ArrowUpRight } from 'lucide-react';
+import Link from 'next/link';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -16,7 +16,6 @@ const Projects = () => {
                   <h3 className="font-semibold text-lg sm:text-xl tracking-tight">
                     {project.title}
                   </h3>
-                  <ArrowUpRight className="h-4 w-4 text-muted-foreground" />
                 </div>
                 <p className="text-sm text-muted-foreground sm:text-base">{project.description}</p>
               </div>
@@ -31,8 +30,12 @@ const Projects = () => {
             </div>
 
             <div className="mt-4 flex flex-wrap gap-3">
-              <Button size="sm">Preview</Button>
-              <Button size="sm">GitHub</Button>
+              <Button size="sm" asChild>
+                <Link href={project.demo ?? '/'}>Preview</Link>
+              </Button>
+              <Button size="sm" asChild>
+                <Link href={project.github ?? '/'}>GitHub</Link>
+              </Button>
             </div>
           </CardContent>
         </Card>

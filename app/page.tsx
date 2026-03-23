@@ -5,28 +5,33 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'About | Lahiru Jayasundara',
+  title: 'Lahiru Jayasundara',
   description:
     'Learn more about software engineer Lahiru Jayasundara, his background, and focus on full‑stack development, AWS serverless architecture, and AI agent integration.',
   keywords: [
+    'about Lahiru',
+    'about Madushan',
+    'about Jayasundara',
+    'about Lahiru Madushan',
     'about Lahiru Jayasundara',
+    'about Lahiru Madushan Jayasundara',
     'software engineer bio',
     'full-stack engineer',
     'AI engineer',
     'AWS serverless developer',
   ],
   openGraph: {
-    title: 'About | Lahiru Jayasundara',
+    title: 'Lahiru Jayasundara',
     description:
       'Bio and background of software engineer Lahiru Jayasundara, including focus areas in AI, serverless, and full‑stack development.',
-    siteName: 'Lahiru Jayasundara Portfolio',
+    siteName: 'Lahiru Portfolio',
     images: [`${baseUrl}/open-garph.png`],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'About | Lahiru Jayasundara',
+    title: 'Lahiru Jayasundara',
     description:
       'Get to know software engineer Lahiru Jayasundara and his expertise in AI and serverless full‑stack development.',
     creator: '@lahirujayasundara',
